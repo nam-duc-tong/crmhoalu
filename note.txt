@@ -1,0 +1,29 @@
+crmhoalu/
+├── config/
+│   └── database.php
+├── core/
+│   ├── Auth.php
+│   ├── Helper.php
+│   └── View.php
+├── app/
+│   ├── controllers/
+│   │   ├── AuthController.php
+│   │   ├── DashboardController.php
+│   │   ├── CustomerController.php
+│   │   ├── PipelineController.php
+│   │   └── ReportController.php
+│   └── views/
+│       ├── layouts/
+│       │   ├── header.php
+│       │   └── footer.php
+│       ├── auth/login.php
+│       ├── dashboard/index.php
+│       ├── customers/{index,form,show}.php
+│       ├── pipeline/index.php
+│       └── reports/index.php
+├── public/
+│   ├── index.php
+│   ├── assets/css/app.css
+│   └── assets/js/app.js
+├── database/schema.sql
+└── .htaccess
